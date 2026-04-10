@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "AnimeSalt",
+        "status_type": "Online",
+        "logo": {
+            "image_url": "https://animesalt.ac/wp-content/uploads/AnimeSaltLong.png"
+        },
+        "anchor": "https://animesalt.ac"
+    },
+    {
+        "id": 2,
+        "title": "DesiDub",
+        "status_type": "Online",
+        "logo": {
+            "image_url": "https://watchanimeworld.net/files/AW_Smiley.png"
+        },
+        "anchor": "https://www.desidubanime.me"
+    },
+    {
+        "id": 3,
+        "title": "AnimeWorld",
+        "status_type": "Online",
+        "logo": {
+            "image_url": "https://watchanimeworld.net/files/AW_Smiley.png"
+        },
+        "anchor": "https://watchanimeworld.net/"
+    },
+    {
+        "id": 4,
+        "title": "AnimeJoker",
+        "status_type": "Online",
+        "logo": {
+            "image_url": "https://animejoker.com/wp-content/uploads/2025/11/animejokerch.png"
+        },
+        "anchor": "https://animejoker.com/"
+    }
+]
