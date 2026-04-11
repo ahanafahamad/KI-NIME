@@ -3,10 +3,6 @@
         {
             "source": "/(.*)",
             "destination": "/index.html"
-        },
-        {
-            "source": "/script/uuid.js",
-            "destination": "https://breachuptown.com/54/f0/81/54f08142815afbe1c9f882d341801dbc.js"
-        }
+        } 
     ]
 }
