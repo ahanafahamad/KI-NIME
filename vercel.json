@@ -1,8 +1,19 @@
-{
-    "rewrites": [
-        {
-            "source": "/(.*)",
-            "destination": "/index.html"
-        } 
-    ]
-}
+    {
+        "rewrites": [
+            {
+                "source": "/(.*)",
+                "has": [
+                    {
+                        "type": "header",
+                        "key": "user-agent",
+                        "value": "(.*)googlebot|bingbot|yandex|baiduspider|twitterbot|facebookexternalhit|rogerbot|linkedinbot|embedly|quora\\ link\\ preview|showyoubot|outbrain|pinterest\\/0\\.|developers.google.com\\/\\+\\/web\\/snippet|slackbot|vkShare|W3C_Validator|redditbot|Applebot|WhatsApp|flipboard|tumblr|bitlybot|SkypeUriPreview|nuzzel|Discordbot|Google\\ Page\\ Speed\\ Insights|Qwantify|pinterestbot|Bitrix\\ link\\ preview|XING-contenttab-preloader|Chrome-Lighthouse(.*)"
+                    }
+                ],
+                "destination": "https://service.prerender.io/https://ki-nime.vercel.app/:path*"
+            },
+            {
+                "source": "/(.*)",
+                "destination": "/index.html"
+            }
+        ]
+    }
